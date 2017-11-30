@@ -1,0 +1,1 @@
+window.addEventListener("nsg_anywhere_get_data",function(c){var b=c.detail;if(b&&b.get){b.values={};while(b.get.length){var a=b.get.pop();b.values[a]=JSON.stringify(window[a])}window.dispatchEvent(new CustomEvent(b.response,{detail:b}))}},false);

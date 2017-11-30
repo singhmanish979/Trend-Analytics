@@ -1,0 +1,29 @@
+﻿// ////////////////////////////////////////////////////////////////////////////////////////////////
+// Symantec copyright header start
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// PROPRIETARY / CONFIDENTIAL.
+// Use of this product is subject to license terms.
+// Copyright © 2014 Symantec Corporation.
+// All rights reserved.
+//
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// Symantec copyright header stop
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+
+{
+  "name": "com.nco.namsghst",
+  "description": "Native Messaging Host Registration",
+  "path": "coNatHst.exe",
+  "type": "stdio",
+  "allowed_origins": [
+"chrome-extension://bcondbdopedopckjpniplfjclmkjakni/",  
+"chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/",
+"chrome-extension://eblihieomkjeiobglmnbmidkajdcfkpa/",
+"chrome-extension://gfiopmfhilabddhocfmglcnnabhknbbk/",
+"chrome-extension://gfoabcdjalmeenbjjngidappmppchblc/",
+"chrome-extension://mfgiogljckdijijcnbobnkndfjfegpec/",
+"chrome-extension://hbmobhkkblcgdifigjglcjneplefbkmh/",
+"chrome-extension://gnafgoapchgjnjcbfjohcbakohefoido/"
+]
+}

@@ -1,0 +1,268 @@
+/* Symantec Watermark: CB70-4860-5397-06-15-6 */
+/*
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// Symantec copyright header start
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// PROPRIETARY / CONFIDENTIAL.
+// Use of this product is subject to license terms.
+// Copyright © 2007 Symantec Corporation.
+// All rights reserved.
+//
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+// Symantec copyright header stop
+// ////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+@media all
+{
+    
+    /*This is from Core dir*/
+    .block-page-header {
+      width: 100%;
+      height: 360px;
+      background-color: #c81a00;
+      position:absolute;
+      top:0;
+      left:0;
+      min-width: 1440px;
+    }
+
+    .block-page-search {
+      width: 100%;
+      height: 150px;
+      position:absolute;
+      top: 360px;
+      left:0;
+      min-width: 1440px;
+    }
+
+    .block-page-search-hide {
+       display: none;
+    }
+    
+    .block-page-header-content {
+      width:960px;
+      height: 100%;
+      position:absolute;
+      left:calc(50% - 480px);
+    }
+
+    .header-content {
+      display: inline-block;
+      position: relative;
+    }
+
+    .block-page-header-content-left {
+      width: 140px;
+    }
+
+    .block-page-header-content-center {
+      width:816px;
+    }
+
+    .block-page-image {
+      width: 81px;
+      height: 81px;
+      position: relative;
+      margin-top: 59px;
+      background-image: url("blocked-redx.svg");
+      display: inline-block;
+    }
+
+    .block-page-text1 {
+      width: 120px;
+      height: auto;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.4;
+      color: #ffffff;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .block-page-norton-logo {
+      width: 81px;
+      height: 31.6px;
+      object-fit: contain;
+      background-image: url("blocked-norton-logo.png");
+      position: relative;
+      margin-top: 10px;
+    }
+
+    .block-page-header-text {
+      display: inline-block;
+    }
+
+    .block-page-heading {
+      min-width: 491px;
+      height: 32px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      line-height: 1;
+      color: #ffffff;
+      position: absolute;
+      top: 59px;
+    }
+
+    .block-page-text2 {
+      min-width: 329px;
+      height: 14px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1;
+      color: #ffffff;
+      position: absolute;
+      top: 111px;
+    }
+
+    .block-page-sitename {
+      width: 410px;
+      height: 20px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      line-height: 1;
+      color: #ffffff;
+      position: absolute;
+      top: 130px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .block-page-text3 {
+      width: 573px;
+      height: 72px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.29;
+      color: #ffffff;
+      position: absolute;
+      top: 166px;
+    }
+
+    .text3_3, .text3_4, .text3_5 {
+      display: inline;
+    }
+
+    .block-page-link {
+      width: 269px;
+      height: 12px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 0.86;
+      color: #ffffff;
+      position: absolute;
+      top: 283px;
+    }
+
+    .block-page-view-report {
+      max-width: 260px;
+      min-width: 159px;
+      height: 40px;
+      background-color: #ffe283;
+      position: absolute;
+      top: 161px;
+      cursor: pointer;
+      right:0px;
+    }
+
+    .block-page-view-report:hover {
+      background-color: #ffd664;
+    }
+
+    .block-page-view-report:active {
+      background-color: #f8a156;
+    }
+
+    .view-report-text {
+      height: 16px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1;
+      color: #333333;
+      margin:11px auto 13px auto;
+      padding-left: 18px;
+      padding-right: 18px;
+      text-align: center;
+    }
+
+    .block-page-search-box {
+      width: 960px;
+      height: 70px;
+      box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.15);
+      position: absolute;
+      left:calc(50% - 480px);
+      top: 40px;
+    }
+
+    .links {
+      color: #ffffff;
+    }
+
+    .block-page-search-text {
+      width: 891px;
+      height: 100%;
+      font-size: 24px;
+      display: inline-block;
+      padding-left: 30px;
+      padding-right: 30px;
+      font-family: Segoe UI, Symantec Sans, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      outline: none;
+      border: solid 1px #dadada;
+      background-color: #f8f8f8;
+      border-right: none;
+    }
+
+    .block-page-search-icon {
+      width: 68px;
+      height: 68px;
+      object-fit: contain;
+      background-image: url("btn-search.svg");
+      position:absolute;
+      right:0px;
+      display: inline-block;
+      cursor: pointer;
+      border: solid 1px #dadada;
+      border-left: none;
+    }
+
+
+    .block-page-search-icon:hover {
+      background-color: #ffd664;
+    }
+
+    .block-page-search-icon:active {
+      background-color: #f8a156;
+    }
+
+    .wrapper {
+      position: absolute;
+      width:auto;
+    }
+
+    a
+	{
+      font-weight:normal;
+      font-size: 14px; 
+	}
+    
+    body[dir="rtl"] .block-page-search-text {
+      border-left: none;
+      border-right: solid 1px #dadada;
+    }
+
+    body[dir="rtl"] .block-page-search-icon {
+      left: 0px;
+      border-right: none;
+      right: auto;
+      border-left: solid 1px #dadada;
+    }
+
+    body[dir="rtl"] .block-page-view-report {
+      left: 0px;
+      right: auto;
+    }
+}

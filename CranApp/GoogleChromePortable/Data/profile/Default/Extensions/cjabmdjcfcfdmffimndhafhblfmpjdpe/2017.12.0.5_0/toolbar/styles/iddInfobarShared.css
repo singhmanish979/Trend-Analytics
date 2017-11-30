@@ -1,0 +1,131 @@
+﻿/* Symantec Watermark: CB70-4860-5397-06-15-6 */
+/* Copyright © 2017 Symantec Corporation. All rights reserved. */
+
+#InfobarContainer {
+background-color:#fff;
+margin:0;
+max-height:37dip;
+min-height:37dip;
+padding:0;
+vertical-align:middle;
+}
+
+#InfobarContainer div.InfobarGroup {
+display:none;
+vertical-align:middle;
+}
+
+.InfobarCaptionText {
+color:#464646;
+font-size:14dip;
+font-weight:200;
+}
+
+.InfobarButton,
+.InfobarButtonGray {
+height:36dip;
+min-height:36dip;
+min-width:130dip;
+vertical-align:middle;
+width:130dip;
+}
+
+.InfobarFAButton {
+max-height:26dip;
+max-width:170dip;
+min-height:26dip;
+min-width:170dip;
+vertical-align:middle;
+}
+
+.InfobarButtonText {
+color:#959595;
+font-size:14dip;
+font-weight:normal;
+}
+
+.InfobarButtonText:hover {
+color:#464646;
+cursor:pointer;
+}
+
+.InfobarButtonText:active {
+color:#00547d;
+text-decoration:underline;
+}
+
+.IDSafeLabel {
+color:#fff;
+font-size:12dip;
+font-weight:800;
+margin-top:5dip;
+vertical-align:middle;
+}
+
+.IDSafeButton,
+.IDSafeDefaultButton {
+height:24dip;
+max-height:24dip ;
+}
+
+.InfobarGroup label {
+background-color:transparent;
+float:left;
+margin-top:2dip;
+vertical-align:middle;
+white-space:nowrap;
+}
+
+.InfobarText {
+color:#CCCCCC;
+font-size:12dip;
+margin-left:0;
+margin-right:15dip;
+padding-bottom:5dip;
+text-align:right;
+vertical-align:middle;
+}
+
+.ButtonText {
+color:#FFCC00;
+font-size:12dip;
+margin-left:14dip;
+margin-right:14dip;
+}
+
+.IDSafeDefaultButton .ButtonText {
+background-color:transparent;
+color:#000;
+font-weight:800;
+}
+
+.IDSafeButton .ButtonText {
+color:#FFCC00;
+}
+
+.IDSafeDefaultButton[Locked="yes"] .ButtonText {
+color:#000;
+}
+
+.IDSafeButton .ButtonText:hover {
+color:#F60;
+}
+
+.IDSafeButton[Locked="yes"] .ButtonText {
+color:#fff;
+}
+
+div[hide="yes"],
+widget[hide="yes"] {
+display:none;
+}
+
+div[hide="no"],
+widget[hide="no"] {
+display:inline-block;
+}
+
+/* Etrack 3893060 */
+input {
+    aspect: ignore_CtrlShift url(key_nav.tis);
+}

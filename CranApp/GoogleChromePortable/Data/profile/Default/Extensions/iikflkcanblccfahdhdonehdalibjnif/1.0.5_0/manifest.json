@@ -1,0 +1,21 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "content.js" ],
+      "matches": [ "https://identitysafe.norton.com/*", "http://identitysafe.norton.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Access your Identity Safe Vault, which remembers your usernames and passwords for single-click access to your favorite sites.",
+   "icons": {
+      "128": "images/icon_ext_idsafe_128.png",
+      "48": "images/icon_ext_idsafe_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4OiZhL5/1WascgsIZ3E6l9Cm4UFQXTxkJH846oUDaWBvQ2/gQLRMhgn13lW66+jsYUiongY4JOUUd0uUPCu54uWA7bQXRGSO6e1XtQpSNkl7tuvKcjmTRPJXCkICJDFQcCNIVgQurqVSTUPPHyj3w4BIg1Q1tKDc9lOirjOxc7DBg6zFXhge3aujVcy1FITwTKW+iKXvbfkBXhqs1r577pppeZ4EAvxzu8ca2IVcFBevu3oaP08c8Ln5neNXPaBp5316kjKDhsTe/iB2xzYXa35iTtgYhEvB1688zURsY2OTO81h4GVe27gmp9yyHDaor1fxshXuyYp4MZ+zYpR5QIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "26.0",
+   "name": "Norton Identity Safe",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

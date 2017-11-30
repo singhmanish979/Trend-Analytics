@@ -1,0 +1,68 @@
+Loading required package: shiny
+
+Listening on http://127.0.0.1:8888
+
+Attaching package: 'jsonlite'
+
+The following object is masked from 'package:shiny':
+
+    validate
+
+Loading required package: stringr
+Loading required package: dplyr
+
+Attaching package: 'dplyr'
+
+The following objects are masked from 'package:stats':
+
+    filter, lag
+
+The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union
+
+Loading required package: ggplot2
+Loading required package: lubridate
+
+Attaching package: 'lubridate'
+
+The following object is masked from 'package:base':
+
+    date
+
+Loading required package: cranlogs
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Loading required package: scales
+Warning: Deprecated: please use `purrr::possibly()` instead
+No encoding supplied: defaulting to UTF-8.
+Warning: Deprecated: please use `purrr::possibly()` instead
+Warning: Deprecated: please use `purrr::possibly()` instead
+Warning: Deprecated: please use `purrr::possibly()` instead
+Warning: Deprecated: please use `purrr::possibly()` instead
+Warning: Error in FUN: object 'package' not found
+Stack trace (innermost first):
+    109: FUN
+    108: FUN
+    107: lapply
+    106: f
+    105: l$compute_aesthetics
+    104: f
+    103: by_layer
+    102: ggplot2::ggplot_build
+    101: print.ggplot
+    100: print
+     89: <reactive:plotObj>
+     78: plotObj
+     77: origRenderFunc
+     76: output$downloadsPlot
+      1: shiny::runApp
+> proc.time()
+   user  system elapsed 
+   5.03    0.68   80.78 
